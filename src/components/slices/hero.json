@@ -1,8 +1,31 @@
 {
   "collectionName": "components_slices_heroes",
   "info": {
-    "displayName": "hero"
+    "displayName": "hero",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
 }

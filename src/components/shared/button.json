@@ -1,21 +1,38 @@
 {
   "collectionName": "components_shared_buttons",
   "info": {
-    "displayName": "button"
+    "displayName": "button",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "href": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "target": {
+    "type": {
       "type": "enumeration",
       "enum": [
-        "_blank"
-      ]
+        "fill",
+        "outline"
+      ],
+      "required": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "required": true
+    },
+    "externalLink": {
+      "type": "boolean",
+      "required": true
     }
   }
 }
