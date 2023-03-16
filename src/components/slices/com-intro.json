@@ -1,16 +1,11 @@
 {
-  "collectionName": "components_slices_heroes",
+  "collectionName": "components_slices_com_intros",
   "info": {
-    "displayName": "hero",
+    "displayName": "ComIntro",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.button"
-    },
     "title": {
       "type": "string",
       "required": true
@@ -19,7 +14,18 @@
       "type": "text",
       "required": true
     },
-    "image": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "stats": {
+      "displayName": "stat",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "image1": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -27,17 +33,9 @@
         "images"
       ]
     },
-    "peopleTitle": {
-      "type": "string",
-      "required": true
-    },
-    "peopleCount": {
-      "type": "string",
-      "required": false
-    },
-    "people": {
+    "image2": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": true,
       "allowedTypes": [
         "images"

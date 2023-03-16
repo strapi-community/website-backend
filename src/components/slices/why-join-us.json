@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_slices_why_joinuses",
+  "info": {
+    "displayName": "WhyJoinUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "whyJoin": {
+      "displayName": "WhyJoin",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.why-join"
+    }
+  }
+}

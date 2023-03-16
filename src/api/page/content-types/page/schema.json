@@ -15,7 +15,10 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "slices.hero"
+        "slices.hero",
+        "slices.com-intro",
+        "slices.why-join-us",
+        "slices.cta"
       ]
     },
     "slug": {
