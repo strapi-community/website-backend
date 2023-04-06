@@ -16,21 +16,18 @@
       "type": "email"
     },
     "githubUsername": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "discordUserID": {
       "type": "string"
     },
     "isMember": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "default": false
     },
     "isCouncil": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "default": false
     }
   }
 }
