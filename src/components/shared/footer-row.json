@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_footer_rows",
+  "info": {
+    "displayName": "FooterRow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

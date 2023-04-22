@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FooterRows": {
+      "displayName": "FooterRow",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-row"
+    }
+  }
+}
