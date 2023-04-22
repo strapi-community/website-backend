@@ -32,16 +32,9 @@
       "required": true
     },
     "peopleCount": {
-      "type": "string",
-      "required": false
-    },
-    "people": {
-      "type": "media",
-      "multiple": true,
+      "type": "integer",
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "default": 4
     }
   }
 }
