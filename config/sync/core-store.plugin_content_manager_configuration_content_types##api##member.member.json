@@ -1,0 +1,162 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::member.member",
+  "value": {
+    "uid": "api::member.member",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "githubUsername",
+      "defaultSortBy": "githubUsername",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "githubUsername": {
+        "edit": {
+          "label": "githubUsername",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "githubUsername",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "discordUserID": {
+        "edit": {
+          "label": "discordUserID",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "discordUserID",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isMember": {
+        "edit": {
+          "label": "isMember",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isMember",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isCouncil": {
+        "edit": {
+          "label": "isCouncil",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isCouncil",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "email",
+        "githubUsername",
+        "discordUserID"
+      ],
+      "edit": [
+        [
+          {
+            "name": "email",
+            "size": 6
+          },
+          {
+            "name": "githubUsername",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "discordUserID",
+            "size": 6
+          },
+          {
+            "name": "isMember",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "isCouncil",
+            "size": 4
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
