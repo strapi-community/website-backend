@@ -20,30 +20,30 @@
     },
     "text": {
       "type": "text"
+    },
+    "logoLight": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logoDark": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logoMono": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
-  },
-  "logoLight": {
-    "type": "media",
-    "multiple": false,
-    "required": true,
-    "allowedTypes": [
-      "images"
-    ]
-  },
-  "logoDark": {
-    "type": "media",
-    "multiple": false,
-    "required": true,
-    "allowedTypes": [
-      "images"
-    ]
-  },
-  "logoMono": {
-    "type": "media",
-    "multiple": false,
-    "required": true,
-    "allowedTypes": [
-      "images"
-    ]
   }
 }
