@@ -17,6 +17,33 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.footer-row"
+    },
+    "text": {
+      "type": "text"
     }
+  },
+  "logoLight": {
+    "type": "media",
+    "multiple": false,
+    "required": true,
+    "allowedTypes": [
+      "images"
+    ]
+  },
+  "logoDark": {
+    "type": "media",
+    "multiple": false,
+    "required": true,
+    "allowedTypes": [
+      "images"
+    ]
+  },
+  "logoMono": {
+    "type": "media",
+    "multiple": false,
+    "required": true,
+    "allowedTypes": [
+      "images"
+    ]
   }
 }
