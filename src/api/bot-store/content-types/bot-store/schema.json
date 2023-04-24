@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "bot_stores",
+  "info": {
+    "singularName": "bot-store",
+    "pluralName": "bot-stores",
+    "displayName": "Bot Store"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "registerMessageId": {
+      "type": "string"
+    }
+  }
+}
